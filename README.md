@@ -4,13 +4,8 @@ A real-time drowsiness detection system that monitors your eyes while you study
 and automatically pauses your YouTube lecture when you fall asleep; then wakes
 you up with an alert.
 
-> Built from a genuine need: falling asleep during online lectures at 11pm in the hostel.
+> Built from a genuine need: falling asleep during online lectures at 6am in the hostel.
 
----
-
-## Demo
-
-> ![Demo](demo.gif)
 
 ---
 
@@ -92,25 +87,25 @@ Press **Q** to quit.
 
 ## Current Status
 
-- [x] Week 1 — Webcam feed + MediaPipe face mesh
-- [x] Week 2 — EAR calculation + real-time drowsy detection
-- [ ] Week 3 — Frame counter to eliminate false positives
-- [ ] Week 4 — YouTube auto-pause + audio alert
-- [ ] Week 5 — Polish, demo video, deployment
+- [x] 1 — Webcam feed + MediaPipe face mesh
+- [x] 2 — EAR calculation + real-time drowsy detection
+- [x] 3 — Frame counter to eliminate false positives
+- [x] 4 — YouTube auto-pause + audio alert
+- [x] 5 — Polish, demo video, deployment
 
 ---
 
-## Known Limitations (being worked on)
+## Known Limitations (worked upon)
 
-- Head tilt causes false drowsy readings (EAR drops when looking up)
-- Single-frame threshold triggers too quickly — frame counter fix coming in Week 3
+- Head tilt causes false drowsy readings (EAR drops when looking up) -> fixed ✔️
+- Single-frame threshold triggers too quickly — frame counter -> fixed ✔️
 
 ---
 
 ## Why I built this
 
 I'm a BTech CSE (AI/ML) student at Bennett University. I kept falling asleep
-during late-night YouTube lectures and losing my place in the video. Instead of
+during early-morning YouTube lectures and losing my place in the video. Instead of
 just accepting it, I decided to build a solution. This project taught me real-time
 computer vision, facial geometry, and how to connect a Python script to browser
 behaviour.
