@@ -1,7 +1,7 @@
 # Drowsiness Detector 😴
 
 A real-time drowsiness detection system that monitors your eyes while you study
-and automatically pauses your YouTube lecture when you fall asleep — then wakes
+and automatically pauses your YouTube lecture when you fall asleep; then wakes
 you up with an alert.
 
 > Built from a genuine need: falling asleep during online lectures at 11pm in the hostel.
