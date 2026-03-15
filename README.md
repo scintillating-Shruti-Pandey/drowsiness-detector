@@ -10,7 +10,7 @@ you up with an alert.
 
 ## Demo
 
-> 📹 _( will dd a short screen recording GIF here once the project is complete)_
+> ![Demo](demo.gif)
 
 ---
 
